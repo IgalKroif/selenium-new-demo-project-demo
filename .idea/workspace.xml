@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e0d3f12-f9c7-4250-8b41-c75bea4521f4" name="Changes" comment="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/WebDriverInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/WebDriverInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,9 +81,9 @@
       <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\main\java\drivers" />
       <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\test\resources" />
       <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course" />
-      <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\main\java\drivers" />
       <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\main\resources" />
     </key>
   </component>
@@ -281,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741430901926</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <option name="closed" value="true" />
+      <created>1741431592751</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741431592751</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

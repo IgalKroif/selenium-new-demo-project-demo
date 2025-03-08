@@ -14,6 +14,9 @@ git pull origin main
 # Build the project using Maven
 mvn clean install
 
+# Ensure chromedriver has execute permissions
+chmod +x /var/jenkins_home/workspace/selenium-first-project-sal-course/src/main/java/drivers/chromedriver
+
 # Run Selenium Tests (Modify as needed)
 java -cp "target/classes:target/test-classes:lib/*" org.testng.TestNG testng.xml
 
