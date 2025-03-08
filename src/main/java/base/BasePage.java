@@ -23,7 +23,7 @@ public class BasePage {
     public BasePage() throws IOException {
         prop = new Properties();
         FileInputStream data = new FileInputStream(
-                System.getProperty("user.dir") + "\\src/main/resources/config.properties");
+                System.getProperty("user.dir") + "/src/test/resources/config.properties");
         prop.load(data);
     }
 
