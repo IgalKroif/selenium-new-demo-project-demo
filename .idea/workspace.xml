@@ -22,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "IgalKroif"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/IgalKroif/selenium-new-demo-project-demo.git",
+    "accountId": "2009a6aa-7e9f-47c5-83eb-218e887680ef"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -36,24 +48,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.selenium-live-project-one-sal-course [-Dtest=NOT_RESOLVED...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.selenium-live-project-one-sal-course [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.selenium-live-project-one-sal-course [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.AddRemoveItemBasketTest.addRemoveItem.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OrderCompleteTest.endToEndTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/src/main/resources&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/src/main/java/uk/co/automationtesting/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Maven.selenium-live-project-one-sal-course [-Dtest=NOT_RESOLVED...].executor": "Run",
+    "Maven.selenium-live-project-one-sal-course [clean].executor": "Run",
+    "Maven.selenium-live-project-one-sal-course [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AddRemoveItemBasketTest.addRemoveItem.executor": "Run",
+    "TestNG.C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/testng.xml.executor": "Run",
+    "TestNG.OrderCompleteTest.endToEndTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/src/test/java",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/Selenium Sal Course",
+    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/src/main/java/uk/co/automationtesting/Main.java",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\main\resources" />
@@ -157,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741423785509</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <option name="closed" value="true" />
+      <created>1741425272558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741425272558</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
