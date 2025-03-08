@@ -1,19 +1,21 @@
-@echo off
-cd /d "%~dp0"  REM Change to script directory
+#!/bin/bash
 
-REM Set Java and Maven Paths (if not in system PATH)
-set JAVA_HOME=C:\Users\user\Desktop\JDKS\jdk-11.0.16
-set MAVEN_HOME=C:\Program Files\apache-maven-3.9.0
-set PATH=%JAVA_HOME%\bin;%MAVEN_HOME%\bin;%PATH%
+# Change to the directory where pom.xml is located
+cd "$(dirname "$(find . -name 'run_tests.sh' -print -quit)")"
 
-REM Pull latest changes from GitHub (if not using Jenkins SCM)
+# Set Java and Maven Paths (if not in system PATH)
+export JAVA_HOME=/path/to/jdk-11.0.16
+export MAVEN_HOME=/path/to/apache-maven-3.9.0
+export PATH=$JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH
+
+# Pull latest changes from GitHub (if not using Jenkins SCM)
 git pull origin main
 
-REM Build the project
+# Build the project using Maven
 mvn clean install
 
-REM Run Selenium Tests (Modify as needed)
-java -cp target/myproject.jar;lib/* org.testng.TestNG testng.xml
+# Run Selenium Tests (Modify as needed)
+java -cp target/myproject.jar:lib/* org.testng.TestNG testng.xml
 
-REM Exit with success status
-exit /b 0
+# Exit with success status
+exit 0
