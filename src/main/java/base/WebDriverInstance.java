@@ -34,15 +34,15 @@ public class WebDriverInstance {
 
         if (prop.getProperty("browser").equals("chrome")) {
             System.setProperty("webdriver.chrome.driver",
-                    System.getProperty("user.dir") + "\\src\\main\\java\\drivers\\chromedriver.exe");
+                    System.getProperty("user.dir") + "/src/main/java/drivers/chromedriver");
             driver = new ChromeDriver();
         } else if (prop.getProperty("browser").equals("firefox")) {
             System.setProperty("webdriver.gecko.driver",
-                    System.getProperty("user.dir") + "\\src\\main\\java\\drivers\\geckodriver.exe");
+                    System.getProperty("user.dir") + "/src/main/java/drivers/geckodriver");
             driver = new FirefoxDriver();
         } else {
             System.setProperty("webdriver.edge.driver",
-                    System.getProperty("user.dir") + "\\src\\main\\java\\drivers\\msedgedriver.exe");
+                    System.getProperty("user.dir") + "/src/main/java/drivers/msedgedriver");
             driver = new EdgeDriver();
         }
 
