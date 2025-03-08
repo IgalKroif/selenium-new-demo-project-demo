@@ -15,7 +15,7 @@ git pull origin main
 mvn clean install
 
 # Run Selenium Tests (Modify as needed)
-java -cp target/myproject.jar:lib/* org.testng.TestNG testng.xml
+java -cp "target/classes:target/test-classes:lib/*" org.testng.TestNG testng.xml
 
 # Exit with success status
 exit 0
