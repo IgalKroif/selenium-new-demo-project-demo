@@ -4,34 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e0d3f12-f9c7-4250-8b41-c75bea4521f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/WebDriverInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/drivers/msedgedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Homepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/OrderFormDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/OrderFormPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/OrderFormPersInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/OrderFormShippingMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ShopContentPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ShopHomepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ShopProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/co/automationtesting/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/automationtesting/AddRemoveItemBasketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/automationtesting/OrderCompleteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="0e0d3f12-f9c7-4250-8b41-c75bea4521f4" name="Changes" comment="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +141,39 @@
       <option name="presentableId" value="Default" />
       <updated>1740129454776</updated>
     </task>
+    <task id="LOCAL-00001" summary="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <option name="closed" value="true" />
+      <created>1741423668199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741423668199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <option name="closed" value="true" />
+      <created>1741423785509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741423785509</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
