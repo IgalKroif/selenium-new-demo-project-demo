@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e0d3f12-f9c7-4250-8b41-c75bea4521f4" name="Changes" comment="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots" />
+    <list default="true" id="0e0d3f12-f9c7-4250-8b41-c75bea4521f4" name="Changes" comment="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/WebDriverInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/WebDriverInstance.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +69,11 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/src/main/java/uk/co/automationtesting/Main.java",
     "settings.editor.selected.configurable": "vcs.Git"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -258,7 +265,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741430530023</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <option name="closed" value="true" />
+      <created>1741430766684</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741430766684</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <option name="closed" value="true" />
+      <created>1741430901926</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741430901926</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

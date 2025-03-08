@@ -17,7 +17,7 @@ public class WebDriverInstance {
     public static WebDriver getThreadedDriver() {
         if(threadedDriver.get() == null) {
             try {
-                threadedDriver.set(createDriver());
+                threadedDriver.set(createLinuxDriver());
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -25,7 +25,35 @@ public class WebDriverInstance {
         return threadedDriver.get();
     }
 
-    public static WebDriver createDriver() throws IOException {
+    public static WebDriver createWindowsDriver() throws IOException {
+        WebDriver driver = null;
+        Properties prop = new Properties();
+        FileInputStream data = new FileInputStream(
+                System.getProperty("user.dir") + "\\src/main/resources/config.properties");
+        prop.load(data);
+
+        if (prop.getProperty("browser").equals("chrome")) {
+            System.setProperty("webdriver.chrome.driver",
+                    System.getProperty("user.dir") + "\\src\\main\\java\\drivers\\chromedriver.exe");
+            driver = new ChromeDriver();
+        } else if (prop.getProperty("browser").equals("firefox")) {
+            System.setProperty("webdriver.gecko.driver",
+                    System.getProperty("user.dir") + "\\src\\main\\java\\drivers\\geckodriver.exe");
+            driver = new FirefoxDriver();
+        } else {
+            System.setProperty("webdriver.edge.driver",
+                    System.getProperty("user.dir") + "\\src\\main\\java\\drivers\\msedgedriver.exe");
+            driver = new EdgeDriver();
+        }
+
+
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        return driver;
+    }
+
+    public static WebDriver createLinuxDriver() throws IOException {
         WebDriver driver = null;
         Properties prop = new Properties();
         FileInputStream data = new FileInputStream(
@@ -34,15 +62,15 @@ public class WebDriverInstance {
 
         if (prop.getProperty("browser").equals("chrome")) {
             System.setProperty("webdriver.chrome.driver",
-                    System.getProperty("user.dir") + "/src/main/java/drivers/chromedriver.exe");
+                    System.getProperty("user.dir") + "/src/main/java/drivers/chromedriver");
             driver = new ChromeDriver();
         } else if (prop.getProperty("browser").equals("firefox")) {
             System.setProperty("webdriver.gecko.driver",
-                    System.getProperty("user.dir") + "/src/main/java/drivers/geckodriver.exe");
+                    System.getProperty("user.dir") + "/src/main/java/drivers/geckodriver");
             driver = new FirefoxDriver();
         } else {
             System.setProperty("webdriver.edge.driver",
-                    System.getProperty("user.dir") + "/src/main/java/drivers/msedgedriver.exe");
+                    System.getProperty("user.dir") + "/src/main/java/drivers/msedgedriver");
             driver = new EdgeDriver();
         }
 
