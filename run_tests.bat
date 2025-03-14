@@ -5,7 +5,7 @@ REM Change to the directory where this script is located
 cd /D "%~dp0"
 
 REM Set Java and Maven Paths (If needed, otherwise remove these lines)
-set JAVA_HOME=C:\Program Files\Java\jdk-11.0.16
+set JAVA_HOME=C:\Program Files\Java\jdk-17
 set MAVEN_HOME=C:\apache-maven-3.9.0
 set PATH=%JAVA_HOME%\bin;%MAVEN_HOME%\bin;%PATH%
 
