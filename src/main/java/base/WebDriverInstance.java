@@ -17,7 +17,7 @@ public class WebDriverInstance {
     public static WebDriver getThreadedDriver() {
         if(threadedDriver.get() == null) {
             try {
-                threadedDriver.set(createLinuxDriver());
+                threadedDriver.set(createWindowsDriver());
             } catch (IOException e) {
                 e.printStackTrace();
             }

@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e0d3f12-f9c7-4250-8b41-c75bea4521f4" name="Changes" comment="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/ExtentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_tests.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/WebDriverInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/WebDriverInstance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,34 +52,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Maven.selenium-live-project-one-sal-course [-Dtest=NOT_RESOLVED...].executor": "Run",
-    "Maven.selenium-live-project-one-sal-course [clean].executor": "Run",
-    "Maven.selenium-live-project-one-sal-course [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Shell Script.run_tests.sh.executor": "Run",
-    "TestNG.AddRemoveItemBasketTest.addRemoveItem.executor": "Run",
-    "TestNG.AddRemoveItemBasketTest.executor": "Run",
-    "TestNG.C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/testng.xml.executor": "Run",
-    "TestNG.OrderCompleteTest.endToEndTest.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/src/test/java",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/Selenium Sal Course",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/src/main/java/uk/co/automationtesting/Main.java",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.selenium-live-project-one-sal-course [-Dtest=NOT_RESOLVED...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.selenium-live-project-one-sal-course [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.selenium-live-project-one-sal-course [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Shell Script.run_tests.sh.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddRemoveItemBasketTest.addRemoveItem.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddRemoveItemBasketTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OrderCompleteTest.endToEndTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/Selenium Sal Course&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/selenium-live-project-one-sal-course/src/main/java/uk/co/automationtesting/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\main\resources" />
