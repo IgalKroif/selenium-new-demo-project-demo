@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e0d3f12-f9c7-4250-8b41-c75bea4521f4" name="Changes" comment="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_tests.bat" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +83,8 @@
       <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\main\java\drivers" />
       <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\test\resources" />
+      <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\main\java\drivers" />
       <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course" />
       <recent name="C:\Users\user\IdeaProjects\selenium-live-project-one-sal-course\src\main\resources" />
     </key>
@@ -330,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741955820800</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <option name="closed" value="true" />
+      <created>1742026145235</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1742026145235</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

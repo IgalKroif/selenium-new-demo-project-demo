@@ -23,7 +23,7 @@ if errorlevel 1 (
 
 REM Run Selenium Tests using TestNG (Ensure testng.xml is correct)
 echo Running Selenium Tests...
-mvn test -Dsurefire.suiteXmlFiles=testng.xml
+mvn test -Dsurefire.suiteXmlFiles=project-root/testng.xml
 if errorlevel 1 (
     echo Selenium tests failed!
     exit /b 1
