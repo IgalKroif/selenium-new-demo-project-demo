@@ -29,7 +29,7 @@ public class WebDriverInstance {
         WebDriver driver = null;
         Properties prop = new Properties();
         FileInputStream data = new FileInputStream(
-                System.getProperty("user.dir") + "\\src/main/resources/config.properties");
+                System.getProperty("user.dir") + "\\src/test/resources/config.properties");
         prop.load(data);
 
         if (prop.getProperty("browser").equals("chrome")) {
