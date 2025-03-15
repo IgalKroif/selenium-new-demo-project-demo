@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e0d3f12-f9c7-4250-8b41-c75bea4521f4" name="Changes" comment="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/automationtesting/AddRemoveItemBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/automationtesting/AddRemoveItemBasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/automationtesting/OrderCompleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/automationtesting/OrderCompleteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742026751092</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added parallel execution framework using ThreadLocal &#10;and added hooks and Listeners.java class to auto take screenshots">
+      <option name="closed" value="true" />
+      <created>1742031579236</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1742031579236</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
