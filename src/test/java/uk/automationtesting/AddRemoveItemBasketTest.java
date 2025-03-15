@@ -1,13 +1,9 @@
 package uk.automationtesting;
 
-import base.BasePage;
+import base.ExtentManager;
 import base.Hooks;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pageobjects.*;
@@ -23,17 +19,25 @@ public class AddRemoveItemBasketTest extends Hooks {
 
     @Test
     public void addRemoveItem() throws IOException {
+
+        ExtentManager.log("Starting AddRemoveItemBasketTest...");
+
         Homepage home = new Homepage();
         home.getCookie().click();
         home.getTestStoreLink().click();
         ShopHomepage shopHome = new ShopHomepage();
+        ExtentManager.pass("Reached the shop homepage!");
         shopHome.getProdOne().click();
 
         ShopProductPage shopProd = new ShopProductPage();
+        ExtentManager.pass("Reached the shop product page!");
         Select option = new Select(shopProd.getSizeOption());
         option.selectByVisibleText("M");
+        ExtentManager.pass("Have successfully selected product size!");
         shopProd.getQuantityIncrease().click();
+        ExtentManager.pass("have successfully increased quantity");
         shopProd.getAddToCartBtn().click();
+        ExtentManager.pass("Have successfully added product to basket.");
 
         ShopContentPanel cPanel = new ShopContentPanel();
         cPanel.getContinueShopBtn().click();
@@ -50,6 +54,14 @@ public class AddRemoveItemBasketTest extends Hooks {
         waitForElementInvisible(cart.getDeleteItemTwo(), 120);
         cart.getTotalValue().getText();
 
-        Assert.assertEquals(cart.getTotalValue().getText(), "$45.23");
+        try{
+            Assert.assertEquals(cart.getTotalValue().getText(), "$45.23");
+            ExtentManager.pass("The total amount matches the expected amount");
+        } catch (AssertionError e){
+            Assert.fail("Cart amount did not match the expected amount, it found"
+                    + cart.getTotalValue().getText() + " expected: $45.23");
+            ExtentManager.fail("The total amount did not match the expected amount.");
+        }
+        //Assert.assertEquals(cart.getTotalValue().getText(), "$45.24");
     }
 }

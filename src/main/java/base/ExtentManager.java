@@ -44,4 +44,30 @@ public class ExtentManager extends BasePage{
         return extentReportPrefix;
     }
 
+    public static void flushReport() {
+        extentReport.flush();
+    }
+    public synchronized static ExtentTest getTest() {
+        return extentTest.get();
+    }
+
+    public synchronized static ExtentTest createTest(String  name, String description) {
+        ExtentTest test = extentReport.createTest(name, description);
+        extentTest.set(test);
+        return getTest();
+    }
+
+    public synchronized static void log(String message) {
+        getTest().info(message);
+    }
+    public synchronized static void pass(String message) {
+        getTest().pass(message);
+    }
+    public synchronized static void fail(String message) {
+        getTest().fail(message);
+    }
+
+    public synchronized static void attachImage() {
+        getTest().addScreenCaptureFromPath(getScreenShotDestinationPath());
+    }
 }

@@ -1,5 +1,6 @@
 package uk.automationtesting;
 
+import base.ExtentManager;
 import base.Hooks;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Listeners;
@@ -18,9 +19,11 @@ public class OrderCompleteTest extends Hooks {
 
     @Test
     public void endToEndTest() throws IOException {
+        ExtentManager.log("Starting OrderCompleteTest...");
         Homepage home = new Homepage();
         home.getCookie().click();
         home.getTestStoreLink().click();
+        ExtentManager.pass("Have successfully reached store homepage");
         ShopHomepage shopHome = new ShopHomepage();
         shopHome.getProdOne().click();
 
@@ -37,6 +40,7 @@ public class OrderCompleteTest extends Hooks {
         cart.getPromoCode().click();
         cart.getPromoTextBox().sendKeys("20OFF");
         cart.getPromoAddBtn().click();
+        ExtentManager.pass("Promo added!");
         cart.getProceedToCheckoutBtn().click();
 
         OrderFormPersInfo pInfo = new OrderFormPersInfo();
