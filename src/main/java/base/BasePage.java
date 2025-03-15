@@ -41,7 +41,9 @@ public class BasePage {
         File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
 
         //File destFile = new File(System.getProperty("user.dir") + "\\target\\screenshots\\"+ timestamp() + ".png");
-        String  destFile = System.getProperty("user.dir") + "\\target\\screenshots\\" + timestamp() + ".jpg";
+        String destFile = "screenshots/" + timestamp() + ".png";
+        FileUtils.copyFile(srcFile, new File(System.getProperty("user.dir") + "\\target\\" + destFile));
+
         System.out.println(destFile);
         screenShotDestinationPath = destFile;
         try {
